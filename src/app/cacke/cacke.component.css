@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
-
 :root {
     font-family: "Playwrite NL", cursive;
     font-optical-sizing: auto;
@@ -30,8 +28,6 @@
 .container {
     width: 100%;
     display: flex;
-
-    /* flex-direction: row; */
     padding-top: 2rem;
     padding-left: 2rem;
 
@@ -60,9 +56,7 @@ aside {
     padding-right: 1rem;
     border-right: solid 1px rgb(139, 139, 153);
     margin-right: 20px;
-
 }
-
 
 .aside-title span ,
 .avi h2,
@@ -77,17 +71,13 @@ aside {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left !important;
-
 }
 
 .collection {
-
         border-bottom: solid rgb(139, 139, 153) 1px;
         list-style-type: none;
         padding-left: 1rem;
-
-    }
-
+}
 
 .collection li a {
     color: rgb(30, 30, 30);
@@ -97,29 +87,20 @@ aside {
     text-decoration: none;
    text-align: left;
     margin-bottom: 10px;
-
-
 }
 
 .checkbox {
     display: none;
 }
-
 label {
-    /* position: relative; */
-    /* padding-left: 30px; */
     margin-bottom: 10px;
     cursor: pointer;
-
 }
-
-
 .avi label,
 .weight label,
 .type label {
     margin-bottom: 10px;
     font-size: 14px;
-
 }
 
 .avi,
@@ -170,7 +151,6 @@ label {
 }
 
 .as {
-
     width: 250px;
     padding: 20px;
     border-right: 1px solid #ddd;
@@ -224,16 +204,12 @@ main{
     text-decoration: line-through;
     color: #999;
 }
-
-
-
     *, *::before, *::after{
         box-sizing: border-box;
       }
 
       body{
         background-color: #ffffff;
-        /* margin: 100px; */
       }
 
       .products-section {
@@ -249,11 +225,9 @@ main{
         padding: 15px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: center;
-        /* border-radius: 10px; */
         transition: transform 0.3s ease;
         flex: 1 1 calc(23% - 20px); /* Adjusted for 4 products per row */
         box-sizing: border-box;
-
     }
 
     .product img {
@@ -268,7 +242,6 @@ main{
         font-family: "Poppins", sans-serif;
         text-decoration: none;
         color: #000;
-
     }
 
     .product .price {
@@ -339,11 +312,8 @@ main{
         align-items: center;
         position: relative;
         height: 175px;
-        /* margin-bottom: 20px;
-        margin-top: 20px;  */
         border: none;
         padding: 20;
-
     }
 
 .newsletter {
@@ -355,7 +325,6 @@ main{
     background-position: left, right;
     padding: 20px 0;
     align-items: center;
-
 }
 
 .newsletter-container {
@@ -451,9 +420,6 @@ main{
     .nav-links li:hover .search-input {
         position: static;
     }
-
-
-
     .aside {
       display: none;
     }

@@ -6,9 +6,7 @@
 
 .aboutUs .container-fluid {
     margin-top: 50px;
-    /* background-image: url('assets/bkg-breadcrumbs.png'); */
     background-repeat: no-repeat;
-    /* background-size: 130%; */
     height: 400px;
     text-align: center;
 }
@@ -37,8 +35,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    animation-name: animation;
-    /* animation-duration: 2s; */
+    animation-name: animation 2s;
 }
 
 .step-container .bg {
@@ -123,7 +120,6 @@
 .imgContainer {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 
 .imgContainer img {
@@ -232,7 +228,6 @@
     background-color: #ecf1ec;
     padding: 20px;
     box-shadow: 0 0 10px rgba(174, 204, 185, 0.849);
-    /* margin-top: 50px; */
     margin-bottom: 20px;
     box-sizing: border-box;
     display: flex;
@@ -272,7 +267,7 @@ opacity: 1;
     margin-bottom: 0px;
     color: #91ad41; 
     text-align: left; 
-    font-family: "Playwrite MX", cursive;
+    /* font-family: "Playwrite MX", cursive; */
 
 }
 .store-heading h1 {
@@ -383,7 +378,6 @@ padding: 15px;
 }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
 .container-section4 {
     display: flex;
     flex-wrap: wrap;
@@ -432,7 +426,7 @@ padding: 15px;
     font-size: 1.6em;
     color: rgb(140, 176, 113);
     margin: 0.5em 0;
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     font-optical-sizing: auto;
     font-weight:300;
     font-style: normal;
@@ -602,6 +596,3 @@ padding: 15px;
         margin-top: 10px;
     }
 }
-
-
-

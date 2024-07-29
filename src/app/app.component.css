@@ -85,16 +85,11 @@ body {
     color: #91ad41;
 }
 
-/* .logo {
-    width: 70px !important;
-} */
-
 .logo img {
     width:90%;
     padding-left: 120px;
 
 }
-
 
 .nav-links {
     align-items: center;
@@ -151,8 +146,6 @@ body {
         color: #91ad41;
     }
 }
-    
-
 
 /* For mobile screens */
 @media (max-width: 767px) {
@@ -197,8 +190,6 @@ body {
 }
 
 /* Footer */
-
-
 @keyframes slideInTop {
     from { transform: translateY(-100%); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
@@ -465,6 +456,3 @@ footer {
         margin-top: 10px;
     }
 }
-
-
-

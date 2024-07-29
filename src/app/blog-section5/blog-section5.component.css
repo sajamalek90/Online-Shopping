@@ -1,399 +1,387 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
-
-       
-        /* important */
-        .blogs:first-of-type{
-            margin-top: 150px;
+/* important */
+    .blogs:first-of-type{
+        margin-top: 150px;
+    }
+    .blog-ads:hover{
+        transform: scale(1.05);
+    }
+    .blogs{
+        display: flex;
+        padding-left: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    @media (max-width:768px) {
+        .blogs{
+            padding-left: 10px ;
         }
-        .blog-ads:hover{
-            transform: scale(1.05);
+    }
+    .blog-post {
+        display: flex;
+    }
+    .sub-blog{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 15px;
+        font-size: large;
+    }
+    
+
+    
+    .sub-blog1 h4 a{
+        text-decoration: none;
+        color: #000;
+    }
+    .sub-blog1 h4 a:hover{
+        color:#91ad41;
+    }
+
+    .sub-blog p {
+        color: #8b8b99;
+        padding-bottom: 10px;
+        line-height:25px;
+    }
+    .blog-left{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+    @media (max-width:768px) {
+        .blog-left img{
+        width: 300px;
+    }
+    }
+    
+    .side {
+        flex: 1;
+        margin-left: 20px;
+        padding-right:0;
+        padding-left: 20px;
+        padding-right: 50px;
+        /* border-left: 1px solid #b7b5b5; */
+        /* position: fixed; */
+        
+    }
+    @media (max-width:768px) {
+        .side{
+            padding-left: 1px;
+            padding-right: 2px;
+            margin-left: 0;
+            margin-bottom: 20px;
+    }
+    }
+    
+    .side ul {
+        list-style-type: none;
+        /* padding: 0; */
+    }
+    
+    .side ul li {
+        margin-bottom: 10px;
+        color: #8b8b99;
+    }
+    
+    .side ul li span {
+        color: #8b8b99;
+        font-size: 14px;
+    }
+    .side-right {
+        text-align: left;
+        border-bottom: 1px solid #b7b5b5;
+        padding-bottom: 20px;
+        width: 400px;
+        padding-left: 20px;
+        border-left: 1px solid #ccc;
+        
+        
+    }
+    @media (max-width:768px) {
+        .side-right{
+            width: auto;
+        }
+    }
+    .category-blog li a{
+        color: black;
+        text-decoration: none;
+        /* padding-bottom: 20px; */
+        padding-left: 3px;
+    }
+    .category-blog li a:hover{
+        color:  #91ad41;
+    }
+    .category-title {
+        color:#91ad41;
+        padding-bottom: 20px;
+    }
+    .sub-blog1{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .sub-blog1 p {
+        color: #8b8b99;
+        padding-top: 15px;
+    }
+    
+    .blog-post1 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    .blog-post1 img:hover{
+        transform: scale(1.1);
+    }
+    .blog-post1:first-of-type{
+    
+        padding-top:20px;
+    }
+    
+    .home-news{
+        display: flex;
+        margin-top: 3px;
+        box-sizing: border-box;
+        padding-bottom: 40px;
+        height: 430px;
+    }
+    @media (max-width:768px) {
+        .home-news{
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-news img{
+            display: none;
+        }
+        .news-text {
+            margin-top: 50px;
+            padding: 40px 20px !important;
+        }
+    }
+    .news-text{
+            background-color: #f8eee4;
+            width: 100%;
+            text-align: center;
+            padding-top: 200px;
+            padding-right: 200px;
+            font-size: 24px;
+    }
+    
+    .blog-one{
+        text-align: left;
+    }
+    .blog-one p:last-of-type{
+        padding-top: 20px;
+        line-height: 25px;
+        font-size: large;
+        color: #000;
+
+    }
+    .blog-one h2 a{
+        text-decoration: none;
+        color: #000;
+        padding-top: 5px;
+        
+    }
+    .blog-one h2 a:hover{
+        text-decoration: none;
+        color:#91ad41;
+        
+    }
+    .blog-two{
+        text-align: left;
+        color: #8b8b99;
+        font-size: large;
+    }
+    .blog-two p{
+        padding-bottom: 10px;
+        line-height: 25px;
+        font-size: large;
+    }
+    .blog-button{
+        text-align: left;
+        display: flex;
+        gap: 11px;
+    }
+    .button-post  {
+        padding-right: 20px;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        color: white;
+        border-radius: 10px ; 
+        transition: .4s;
+        cursor: pointer;
+    }
+    .button-post a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btn1{
+        border: 1px #3b5998;
+        background-color: #3b5998;
+        
+        
+    }
+    .btn1:hover {
+        border: 1px solid #3b5998;
+        background-color: #ffffff;
+        color:#3b5998;  
+
+    }
+    .btn1:hover  a{
+        color: #3b5998 !important;
+    }
+    .btn2{
+        border: 1px #00aced;
+        background-color: #00aced;
+    }
+    .btn2:hover{
+        border: 1px solid #00aced;
+        background-color: #ffffff;
+        color: #00aced;
+    }
+    .btn2:hover a{
+        color: #00aced;
+    }
+    .btn3{
+        border: 1px #cb2027;
+        background-color: #cb2027;
+    }
+    .btn3:hover{
+        border: 1px solid #cb2027;
+        background-color: #ffffff;
+        color:#cb2027;
+    }
+    .btn3:hover a{
+        color:#cb2027;
+    }
+    @media screen and (max-width: 768px){
+        .blog-left, .blog-post , .blogs{
+            flex-direction: column;
         }
         .blogs{
-            display: flex;
-            padding-left: 120px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        @media (max-width:768px) {
-            .blogs{
-                padding-left: 10px ;
-            }
-        }
-        .blog-post {
-            display: flex;
+            flex-direction: column-reverse !important;
         }
         .sub-blog{
+            padding-left:0 ;
             text-align: left;
-            padding-left: 30px;
-            padding-right: 30px;
-            margin-top: 15px;
-            font-size: large;
         }
-      
-
-        
-        .sub-blog1 h4 a{
-            text-decoration: none;
-            color: #000;
-        }
-        .sub-blog1 h4 a:hover{
-            color:#91ad41;
-        }
-
-        .sub-blog p {
-            color: #8b8b99;
-            padding-bottom: 10px;
-            line-height:25px;
-        }
-        .blog-left{
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            padding-bottom: 40px;
-        }
-        @media (max-width:768px) {
-            .blog-left img{
-            width: 300px;
-        }
-        }
-        
-        .side {
-            flex: 1;
-            margin-left: 20px;
-            padding-right:0;
-            padding-left: 20px;
-            padding-right: 50px;
-            /* border-left: 1px solid #b7b5b5; */
-            /* position: fixed; */
-            
-        }
-        @media (max-width:768px) {
-            .side{
-                padding-left: 1px;
-                padding-right: 2px;
-                margin-left: 0;
-                margin-bottom: 20px;
-        }
-        }
-        
-        .side ul {
-            list-style-type: none;
-            /* padding: 0; */
-        }
-        
-        .side ul li {
-            margin-bottom: 10px;
-            color: #8b8b99;
-        }
-        
-        .side ul li span {
-            color: #8b8b99;
-            font-size: 14px;
-        }
-        .side-right {
-            text-align: left;
-            border-bottom: 1px solid #b7b5b5;
-            padding-bottom: 20px;
-            width: 400px;
-            padding-left: 20px;
-            border-left: 1px solid #ccc;
-          
-            
-        }
-        @media (max-width:768px) {
-            .side-right{
-                width: auto;
-            }
+        body{
+            text-align: center;
         }
         .category-blog li a{
-            color: black;
-            text-decoration: none;
-            /* padding-bottom: 20px; */
-            padding-left: 3px;
-        }
-        .category-blog li a:hover{
-            color:  #91ad41;
-        }
-        .category-title {
-            color:#91ad41;
-            padding-bottom: 20px;
-        }
-        .sub-blog1{
-            text-align: left;
-            padding-left: 20px;
-            /* padding-top: 30px; */
-        }
-        /* .sub-blog1 h3 {
-            margin-top: 10px;
-            padding-bottom: 20px;
-            
-        } */
-        
-        .sub-blog1 p {
-            color: #8b8b99;
-            padding-top: 15px;
-        }
-        
-        .blog-post1 {
             display: flex;
             flex-direction: row;
-            padding-top: 20px;
+            justify-content: left;
+            position: right;
         }
-        .blog-post1 img:hover{
-            transform: scale(1.1);
-        }
-        .blog-post1:first-of-type{
-        
-            padding-top:20px;
-        }
-     
-        .home-news{
-            display: flex;
-            margin-top: 3px;
-            box-sizing: border-box;
-            padding-bottom: 40px;
-            height: 430px;
-        }
-        @media (max-width:768px) {
-            .home-news{
-                height: auto;
-                /* flex-direction: column; */
-                justify-content: center;
-                align-items: center;
-            }
-            .home-news img{
-                display: none;
-            }
-            .news-text {
-                margin-top: 50px;
-                padding: 40px 20px !important;
-            }
-        }
-        .news-text{
-              background-color: #f8eee4;
-              width: 100%;
-              text-align: center;
-              padding-top: 200px;
-              padding-right: 200px;
-              font-size: 24px;
-        }
-        /* .blog-one img{
-            padding-right: 150px;
-        } */
-        .blog-one{
+        .blog-post1{
             text-align: left;
+            
         }
-        .blog-one p:last-of-type{
-            padding-top: 20px;
-            line-height: 25px;
-            font-size: large;
-            color: #000;
+        
+    }
+    .blog-ads{
+        padding-top: 20px; 
+        width: 300px; 
+        /* border-top:1px #8b8b99 solid; */
+    }
+    .newsletter {
+        width: 100%;
+        height: 175px;
+        background-color: #f5ebd8;
+        background-image: url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg1_7dc39a5c-bd28-4d17-bfb7-3633b8edadb2.png?v=1613680475'), url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg2.png?v=1613680475');
+        background-repeat: no-repeat, no-repeat;
+        background-position: left, right;
+        padding: 20px 0;
+        align-items: center;
+        animation: slideInTop 1s ease-in-out;
+    }
     
-        }
-        .blog-one h2 a{
-            text-decoration: none;
-            color: #000;
-            padding-top: 5px;
-            
-        }
-        .blog-one h2 a:hover{
-            text-decoration: none;
-            color:#91ad41;
-            
-        }
-        .blog-two{
-            text-align: left;
-            color: #8b8b99;
-            font-size: large;
-        }
-        .blog-two p{
-            padding-bottom: 10px;
-            line-height: 25px;
-            font-size: large;
-        }
-        .blog-button{
-         text-align: left;
-         display: flex;
-         gap: 11px;
-        }
-        .button-post  {
-            padding-right: 20px;
-            text-align: center;
-            width: 100px;
-            height: 40px;
-            color: white;
-            border-radius: 10px ; 
-            transition: .4s;
-            cursor: pointer;
-        }
-        .button-post a{
-            text-decoration: none;
-            color: white;
-        }
-       
-        .btn1{
-            border: 1px #3b5998;
-            background-color: #3b5998;
-           
-            
-        }
-        .btn1:hover {
-            border: 1px solid #3b5998;
-            background-color: #ffffff;
-            color:#3b5998;  
-
-        }
-        .btn1:hover  a{
-            color: #3b5998 !important;
-        }
-        .btn2{
-            border: 1px #00aced;
-            background-color: #00aced;
-        }
-        .btn2:hover{
-            border: 1px solid #00aced;
-            background-color: #ffffff;
-            color: #00aced;
-        }
-        .btn2:hover a{
-            color: #00aced;
-        }
-        .btn3{
-            border: 1px #cb2027;
-            background-color: #cb2027;
-        }
-        .btn3:hover{
-            border: 1px solid #cb2027;
-            background-color: #ffffff;
-            color:#cb2027;
-        }
-        .btn3:hover a{
-            color:#cb2027;
-        }
-        @media screen and (max-width: 768px){
-            .blog-left, .blog-post , .blogs{
-                flex-direction: column;
-            }
-            .blogs{
-                flex-direction: column-reverse !important;
-            }
-            .sub-blog{
-                padding-left:0 ;
-                text-align: left;
-            }
-            body{
-                text-align: center;
-            }
-            .category-blog li a{
-                display: flex;
-                flex-direction: row;
-                justify-content: left;
-                position: right;
-            }
-            .blog-post1{
-               text-align: left;
-              
-            }
-            
-        }
-        .blog-ads{
-            padding-top: 20px; 
-            width: 300px; 
-            /* border-top:1px #8b8b99 solid; */
-        }
-        .newsletter {
-            width: 100%;
-            height: 175px;
-            background-color: #f5ebd8;
-            background-image: url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg1_7dc39a5c-bd28-4d17-bfb7-3633b8edadb2.png?v=1613680475'), url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg2.png?v=1613680475');
-            background-repeat: no-repeat, no-repeat;
-            background-position: left, right;
-            padding: 20px 0;
-            align-items: center;
-            animation: slideInTop 1s ease-in-out;
-        }
-        
-        .newsletter-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            place-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            padding-top: 50px;
-            animation: slideInTop 1.5s ease-in-out;
-        }
-        
+    .newsletter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        place-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        padding-top: 50px;
+        animation: slideInTop 1.5s ease-in-out;
+    }
+    
+    .newsletter-content h2 {
+        font-size: 36px;
+        color: #333;
+        margin: 0;
+        text-align: center;
+        animation: slideInTop 2s ease-in-out;
+    }
+    
+    .newsletter-form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .newsletter-form input[type="email"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        width: 300px;
+    }
+    
+    .newsletter-form button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: #91ad41;
+        color: white;
+        cursor: pointer;
+        border-radius: 0 5px 5px 0;
+        animation: slideInTop 2.5s ease-in-out;
+    }
+    
+    .newsletter-form button:hover {
+        background-color: #7e9934;
+    }
+    
+    .newsletter-message {
+        color: #4CAF50;
+        margin-top: 10px;
+        display: none; /* Hide by default */
+    }
+    
+    @media (max-width: 768px) {
         .newsletter-content h2 {
-            font-size: 36px;
-            color: #333;
-            margin: 0;
-            text-align: center;
-            animation: slideInTop 2s ease-in-out;
+            font-size: 24px;
         }
-        
-        .newsletter-form {
-            display: flex;
-            align-items: center;
-        }
-        
+    
         .newsletter-form input[type="email"] {
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px 0 0 5px;
-            outline: none;
-            width: 300px;
+            width: 100%;
         }
-        
+    
         .newsletter-form button {
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            background-color: #91ad41;
-            color: white;
-            cursor: pointer;
-            border-radius: 0 5px 5px 0;
-            animation: slideInTop 2.5s ease-in-out;
-        }
-        
-        .newsletter-form button:hover {
-            background-color: #7e9934;
-        }
-        
-        .newsletter-message {
-            color: #4CAF50;
+            width: 100%;
             margin-top: 10px;
-            display: none; /* Hide by default */
         }
-        
-        @media (max-width: 768px) {
-            .newsletter-content h2 {
-                font-size: 24px;
-            }
-        
-            .newsletter-form input[type="email"] {
-                width: 100%;
-            }
-        
-            .newsletter-form button {
-                width: 100%;
-                margin-top: 10px;
-            }
+    }
+    
+    @media (max-width: 480px) {
+        .newsletter-content h2 {
+            font-size: 24px;
         }
-        
-        @media (max-width: 480px) {
-            .newsletter-content h2 {
-                font-size: 24px;
-            }
-        
-            .newsletter-form input[type="email"] {
-                width: 100%;
-            }
-        
-            .newsletter-form button {
-                width: 100%;
-                margin-top: 10px;
-            }
+    
+        .newsletter-form input[type="email"] {
+            width: 100%;
         }
+    
+        .newsletter-form button {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
         

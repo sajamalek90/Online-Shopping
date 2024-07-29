@@ -1,8 +1,6 @@
 /* section1 Menna */
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
-
 :root {
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     font-optical-sizing: auto;
     font-weight: 150;
     font-style: normal;
@@ -19,7 +17,6 @@ section {
     background-image: url(https://cs-oars-1.myshopify.com/cdn/shop/files/oar1-sl1_1512x.jpg?v=1652412784);
     background-size: cover;
     background-position: center;
-    /* width: 100%; */
     margin-top: 55px;
 }
 
@@ -30,7 +27,7 @@ section {
 .home .span {  
     box-sizing: border-box;
     color: rgb(16, 16, 16);
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     font-size: 18px;
     height: 17.9861px;
     margin-bottom: 5px;
@@ -321,8 +318,6 @@ section {
     padding-bottom: 50px;
 }
 
-
-
 .col {
     float: left;
     width: 25%; /* Default for large screens */
@@ -602,7 +597,6 @@ span {
     }
 }
 /* section5 Shrouk */
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
 .container-section4 {
     display: flex;
     flex-wrap: wrap;
@@ -651,7 +645,7 @@ span {
     font-size: 1.6em;
     color: rgb(140, 176, 113);
     margin: 0.5em 0;
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     font-optical-sizing: auto;
     font-weight:300;
     font-style: normal;

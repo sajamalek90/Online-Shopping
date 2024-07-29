@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
-
 :root {
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     font-optical-sizing: auto;
     font-weight: 150;
     font-style: normal;
@@ -12,8 +10,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 .home {
     background-image: url('https://cs-oars-1.myshopify.com/cdn/shop/files/bkg-breadcrumbs.png?v=1653280196');
     background-size: cover;
@@ -21,10 +17,9 @@
     padding: 100px 20px;
     margin-top: 55px;
 }
-
 .content p  {
     color: #91ad41!important; 
-    font-family: "Playwrite NL", cursive;
+    /* font-family: "Playwrite NL", cursive; */
     /* text-align: center; */
 }
 .content{
@@ -34,8 +29,6 @@
 .container {
     width: 100%;
     display: flex;
-    
-    /* flex-direction: row; */
     padding-top: 2rem;
     padding-left: 2rem;
    
@@ -49,11 +42,10 @@
             font-size: 14px;
             margin: 0;
             color: #91ad41;
-            font-family: "Playwrite NL", cursive;
+            /* font-family: "Playwrite NL", cursive; */
             font-optical-sizing: auto;
             font-weight:150;
             font-style: normal;
-            
         }
         .subtitle a {
             color: inherit; /* Use the existing color */
@@ -66,7 +58,6 @@ aside {
     margin-right: 20px;
   
 }
-
 
 .aside-title span ,
 .avi h2,
@@ -81,18 +72,14 @@ aside {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left !important;
-  
 }
 
 .collection {
     
         border-bottom: solid rgb(139, 139, 153) 1px;
         list-style-type: none;  
-        /* padding-left: 1rem;  */
         margin-top: 20px;
-       
     }
-
 
 .collection li a {
     color: rgb(30, 30, 30);
@@ -102,8 +89,6 @@ aside {
     text-decoration: none;  
    text-align: left;
     margin-bottom: 10px;
-   
-   
 }
 
 .checkbox {
@@ -111,20 +96,15 @@ aside {
 }
 
 label {
-    /* position: relative; */
-    /* padding-left: 30px; */
     margin-bottom: 10px;
     cursor: pointer;
-   
 }
-
 
 .avi label,
 .weight label,
 .type label {
     margin-bottom: 10px;
     font-size: 14px;
-  
 }
 
 .avi,
@@ -175,17 +155,15 @@ label {
 }
 
 .as {
-    
     width: 250px; 
     padding: 20px;
     border-right: 1px solid #ddd;
-     box-sizing: border-box;
+    box-sizing: border-box;
     flex-shrink: 0;
 }
 main{
     padding-left: 2rem;
 }
-
 .product-list {
     flex: 1; 
     display: flex;
@@ -193,7 +171,6 @@ main{
     padding: 20px;
     gap: 20px; 
 }
-
 .product-item {
     width: calc(33.333% - 20px); 
     box-sizing: border-box;
@@ -207,13 +184,11 @@ main{
 .p{
    background-color:rgba(0, 0, 0, 0);
 }
-
 .product-item img {
     width: 100%;
     height: auto;
     display: block;
 }
-
 .product-name {
     margin: 10px 0;
     font-size: 14px;
@@ -229,10 +204,7 @@ main{
     text-decoration: line-through;
     color: #999;
 }
-
- 
-    
-    *, *::before, *::after{
+*, *::before, *::after{
         box-sizing: border-box;
       }
       
@@ -254,7 +226,6 @@ main{
         padding: 15px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: center;
-        /* border-radius: 10px; */
         transition: transform 0.3s ease;
         flex: 1 1 calc(23% - 20px); /* Adjusted for 4 products per row */
         box-sizing: border-box;
@@ -344,9 +315,7 @@ main{
         justify-content: center;
         align-items: center;
         position: relative;
-        height: 175px; 
-        /* margin-bottom: 20px; 
-        margin-top: 20px;  */
+        height: 175px;
         border: none; 
         padding: 20;
 
@@ -414,30 +383,6 @@ main{
     margin-top: 10px;
     display: none; 
 }
-/* .main-content {
-    display: flex;
-    margin-top: 60px;
-    padding: 20px;
-    gap: 20px;
-} */
-
-/* .aside {
-    width: 250px;
-    padding: 20px;
-    border-right: 1px solid #ddd;
-    flex-shrink: 0;
-} */
-
-/* .product-item {
-    width: calc(33.333% - 20px);
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-    background-color: #fff;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-} */
 
 @media (max-width: 768px) {
     .nav-links {
@@ -457,13 +402,9 @@ main{
     .nav-links li:hover .search-input {
         position: static;
     }
-    
-
-    
-    .aside {
+     .aside {
       display: none;
     }
-    
     .products-section {
       width: 100%;
       float: none;
