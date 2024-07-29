@@ -37,7 +37,6 @@
           },
           "configurations": {
             "production": {
-              "outputPath": "dist/Online-Shopping",
               "budgets": [
               {
                 "type": "initial",
