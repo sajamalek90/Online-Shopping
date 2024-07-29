@@ -1,0 +1,149 @@
+<section class="home">
+    <div class="content">
+      <p class="span"> We Introduction </p>
+      <h1>Oars Organic</h1>
+      <p>Maecenas sed diam eget risus posuere erat a ante venenatis dapibus posuere velit aliquet diam eget risus posuere.</p>
+      <a href="#"class="button">Shop Now</a>
+    </div>
+</section>
+  
+<div class="container-section">
+<img src="assets/2_900x.png" alt="Oars Store Image" class="main-image">
+<div class="text-content">
+  <div class="core-features">
+      <h4>Core Features</h4>
+  </div>
+  <div class="store-heading">
+      <h1>What is Oars Store?</h1>
+      <img src="assets/oar1_ico_title_150x.webp" alt="What is Oars Store Image">
+      <p class="extra-text">Cras mattis consectetur purus sit amet fermentum. Praesent vel scelerisque nisl consectetur et.</p>
+  </div>
+  <div class="flex-container">
+      <div class="flex-item">
+          <img src="assets/n1_180x.png" alt="Icon Image" class="icon">
+          <div class="text-content">
+              <h3>Free Shipping</h3>
+              <p>With $100 or more orders. Go to Oars Store</p>
+          </div>
+      </div>
+      <div class="flex-item">
+          <img src="assets/n2_180x.png" alt="Icon Image" class="icon">
+          <div class="text-content">
+              <h3>100% Organic Certified</h3>
+              <p>100% Organic Certified Food & Textiles</p>
+          </div>
+      </div>
+      <div class="flex-item">
+          <img src="assets/n3_180x.png" alt="Icon Image" class="icon">
+          <div class="text-content">
+              <h3>Secure Payment</h3>
+              <p>Secure Confirmed</p>
+          </div>
+      </div>
+      <div class="flex-item">
+          <img src="assets/n4_180x.png" alt="Icon Image" class="icon">
+          <div class="text-content">
+              <h3>Friendly Support</h3>
+              <p>Need help : +(12) 124 987 97</p>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="feature-products-container">
+<div class="feature-products">
+    <div class="feature-products-text-container">
+        <p id="fresh-food">Fresh Food</p>
+        <h2 id="feature_products">Feature Products</h2>
+        <img src="assets/leave.png" alt="leave" id="leave-icon">
+    </div>
+    <ul id="feature-products-categories">
+        <li *ngFor="let cat of categories" 
+            [class.active]="selectedCategory === cat" 
+            (click)="onCategoryChange(cat)">
+          {{ cat }}
+        </li>
+      </ul>
+      
+      <div id="card-container">
+        <div *ngFor="let product of products" class="card">
+          <div class="images-container" [style.backgroundImage]="'url(' + product.image + ')'">
+            <div *ngIf="product.hoverImage" class="hover-image" 
+                [style.backgroundImage]="'url(' + product.hoverImage + ')'"></div>
+            <span *ngFor="let label of product.labels" [class]="label.toLowerCase() + '-span'">
+                {{ formatLabel(label) }}
+            </span>
+          </div>
+          <div class="icons-container">
+            <a *ngFor="let i of [1, 2, 3, 4]" href="#" target="_blank" class="icon-link">
+              <img [src]="'assets/Icon' + i + '.png'" [alt]="'Icon ' + i">
+            </a>
+          </div>
+          <div class="content-container">
+            <h3><a [href]="product.link" target="_blank">{{ product.title }}</a></h3>
+            <p>{{ product.price }}</p>
+            <p *ngIf="product.discount" class="price-discount">{{ product.discount }}</p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+
+<div class="container-section4">
+<div class="text-container">
+    <div class="overlay">
+        <h3>Deal Of The Day</h3>
+        <h1>Oars Store Offer 50% Off</h1>
+        <div class="text">
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+        </div>
+        <button class="overlay-button">View More</button>
+    </div>
+</div>
+<div class="image-container">
+    <img src="https://cs-oars-1.myshopify.com/cdn/shop/files/3_26fa487d-c592-4f6d-afe4-e2037865db87_720x.png?v=1613680680" alt="Placeholder Image 1">
+</div>
+</div>
+
+<!-- <div class="container-section3">
+<div style="overflow: hidden;">
+  <h2  class="fon"> About Us </h2>
+  <br>
+  <h1 class="who" style="font-family: Arial, Helvetica, sans-serif;"> Who we are  </h1>
+  <img src="assets/leave.png" height="90" alt="Placeholder Image">
+
+  <div class="home-row">
+      <div class="col">
+          <img src="assets/11.png" width="150" ;height="150" alt="Placeholder Image">
+          <div>
+              <h3 class="bacic">Natural Farm</h3>
+              <p class="pp">Vegetables and fruits produced by natural agriculture are better in taste than those produced
+                  by industrial agriculture.</p>
+              </div>
+      </div>
+      <div class="col">
+          <img src="assets/22.png" width="150" ;height="150" alt="Placeholder Image">
+          <div>
+              <h3 class="bacic">Healthy Food</h3>
+              <p class="pp"> It provides the nutrients that our bodies need to function properly. Healthy food can help
+                  us to maintain a healthy weight, reduce our risk of chronic diseases.</p>
+              </div>
+      </div>
+      <div class="col">
+          <img src="assets/33.png" width="170" ;height="170" alt="Placeholder Image">
+          <h3 class="bacic">Biologically Safe</h3>
+          <p class="pp"> the prevention of large-scale loss of biological integrity, focusing both on ecology and human
+              health</p>
+
+      </div>
+      <div class="col">
+          <img src="assets/44.png" width="180" ;height="180" alt="Placeholder Image">
+          <h3 class="bacic">Biodiversity </h3>
+          <p class="pp"> the variety of living species on Earth, including plants, animals, bacteria, and fungi. While
+              Earth’s biodiversity is so rich </p>
+      </div>
+    </div>
+</div>
+</div> -->

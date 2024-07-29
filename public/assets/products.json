@@ -1,0 +1,347 @@
+[
+    {
+      "category": "all",
+      "image": "./assets/greenDetox.jpg",
+      "hoverImage": "./assets/greenDetox2.jpg",
+      "title": "Green Detox Drink",
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-detox-drink",
+      "price": "From $10.00",
+      "discount": null,
+      "labels": ["New", "Hot"]
+    },
+    {
+      "category": "all",
+      "image": "./assets/greenPeppercorn0.jpg",
+      "hoverImage": "./assets/green-peppercorn.jpg",
+      "title": "Green Peppercorn",
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-peppercorn",
+      "price": "From $10.00",
+      "discount": null,
+      "labels": []
+    },
+    { 
+      "category": "all",
+      "image": "./assets/green-peppercorn3.jpg", 
+      "hoverImage": null , 
+      "title": "Green Peppercorn", 
+      " link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-peppercorn-1" , 
+      "price": "$100.00" 
+    },
+    { 
+      "category": "all",
+      "image": "./assets/Peppercorn.jpg", 
+      "hoverImage": null , "title": "Green Peppercorn", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/copy-of-fresh-tomatoesgreen-peppercorn" , 
+      "price": "$100.00" 
+    },
+    { 
+      "category": "all",
+      "image": "./assets/Mushroom.jpg", 
+      "hoverImage": "./assets/mushroom-hover.webp" , 
+      "title": "Organic Mushroom", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/organic-mushroom" , 
+      "price": "$10.00" , 
+     
+      "labels": ["-50%"] 
+    },
+    { 
+      "category": "all",
+      "image": "./assets/corn.webp", 
+      "hoverImage": null, 
+      "title": "Vegetable Smoothie", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/vegetable-smoothie" , 
+      "price": "$100.00" 
+    },
+    { 
+      "category": "all",
+      "image": "./assets/simple-aineapple-juice.webp", 
+      "hoverImage": null , 
+      "title": "Simple Aineapple Juice", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/simple-aineapple-juice" , 
+      "price": "$100.00" , 
+       
+      "labels": ["-50%" , "New"] 
+    },
+    { 
+      "category": "all",
+      "image": "./assets/purple-cabbage.jpg", 
+      "hoverImage": null , 
+      "title": "Purple Cabbage", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/purple-cabbage-1" , 
+      "price": "$100.00" , 
+      "labels": ["New"] 
+    },
+    { 
+      "category": "smothie",
+      "image": "./assets/vegetable.webp", 
+      "hoverImage": "./assets/vegetableSmoothie.webp" , 
+      "title": "Vegetable Smoothie", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/vegetable-smoothie-2" , 
+      "price": "$41.00" , 
+      
+      "labels": ["-18%" , "Best"] 
+    },
+    { 
+      "category": "smothie",
+      "image": "./assets/DetoxFreshMangoJuice.webp", 
+      "hoverImage": "./assets/DetoxFreshMangoJuice2.jpg", 
+      "title": "Detox Fresh Mango Juice", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/detox-fresh-mango-juice" , 
+      "price": "From $10.00" , 
+      "labels": ["Hot"] 
+    },
+    {
+      "category": "smothie",
+       "image": "./assets/pinaple.webp", 
+       "hoverImage": null , 
+       "title": "Simple Aineapple Juice", 
+       "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/simple-aineapple-juice-1" , 
+        "price": "$100.00" 
+    },
+    { 
+      "category": "smothie",
+      "image": "./assets/VegetableSmoothie.jpg", 
+      "hoverImage": "./assets/str.jpg" , 
+      "title": "Vegetable Smoothie", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/vegetable-smoothie-1" , 
+      "price": "$41.00" , 
+     
+      "labels": ["-18%" , "Best"] 
+    },
+    { 
+      "category": "smothie",
+      "image": "./assets/Blueberries.jpg", 
+      "hoverImage": "./assets/Blueberries2.webp" , 
+      "title": "Fresh Detox Blueberries", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/fresh-detox-blueberries-1" , 
+      "price": "From $10.00" , 
+      "labels": ["Best"] 
+    },
+    {
+      "category": "smothie",
+       "image": "./assets/green.webp", 
+       "hoverImage": "./assets/green2.webp", 
+       "title": "Green Detox Drink", 
+        "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/green-detox-drink-1" , 
+        "price": "From $10.00" 
+    },
+    {
+      "category": "smothie",
+       "image": "./assets/icecream.webp", 
+       "hoverImage": "./assets/iceCream2.webp" , 
+       "title": "Whipped Cream With Strawberry", 
+        "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/organic-mushroom-2c" , 
+        "price": "$100.00" , 
+        
+        "labels": ["-50%"] 
+    },
+    {
+      "category": "smothie",
+       "image": "./assets/Isolated.webp", 
+       "hoverImage": "./assets/Isolated2.webp" , 
+       "title": "Colorful Popsicles Isolated", 
+        "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/organic-mushroomc" , 
+        "price": "From $10.00" , 
+       
+        "labels": ["-50%" , "New"] 
+    },
+    { 
+      "category": "juice",
+      "image": "./assets/DetoxFreshMangoJuice.webp", 
+      "hoverImage": "./assets/DetoxFreshMangoJuice2.jpg", 
+      "title": "Detox Fresh Mango Juice", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/detox-fresh-mango-juice" , 
+      "price": "From $10.00" , 
+      "labels": ["Hot"] 
+    },
+    { 
+      "category": "juice",
+      "image": "./assets/pinaple.webp", 
+      "hoverImage": null , "title": "Simple Aineapple Juice", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/simple-aineapple-juice-1" , 
+      "price": "$100.00" 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/kiwi.webp", 
+       "hoverImage": null , 
+       "title": "Fresh Kiwi Smoothie", 
+       "link": "https://cs-oars-1.myshopify.com/collections/juices/products/fresh-kiwi-smoothie" , 
+        "price": "$100.00" 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/VegetableSmoothie.jpg", 
+       "hoverImage": "./assets/str.jpg" , 
+       "title": "Vegetable Smoothie", 
+        "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/vegetable-smoothie-1" , 
+        "price": "$41.00" , 
+        
+        "labels": ["-18%" , "Best"] 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/green.webp", 
+       "hoverImage": "./assets/green2.webp", 
+       "title": "Green Detox Drink", 
+        "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/green-detox-drink-1" , 
+        "price": "From $10.00" 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/Isolated.webp", 
+       "hoverImage": "./assets/Cappuccino2.webp" , 
+       "title": "Cappuccino Ice Cream", 
+       "link": "https://cs-oars-1.myshopify.com/collections/juices/products/banana-blossomsc" , 
+       "price": "From $10.00" , 
+       
+       "labels": ["-50%"] 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/vegetable.webp", 
+       "hoverImage": "./assets/vegetableSmoothie.webp" , 
+       "title": "Vegetable Smoothie", 
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/vegetable-smoothie-2" , 
+      "price": "$41.00" , 
+      
+      "labels": ["-18%" , "Best"] 
+    },
+    {
+      "category": "juice",
+       "image": "./assets/kiwii.webp", 
+       "hoverImage": null , "title": "Simple Kiwi Juice", 
+      "link": "https://cs-oars-1.myshopify.com/collections/juices/products/simple-kiwi-juice" , 
+      "price": "$100.00" 
+    },
+    {
+      "category": "vegetables",
+      "image": "./assets/Blossoms.jpg",
+      "hoverImage": "./assets/Blossoms2.webp",
+      "title": "Banana Blossoms",
+      "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/banana-blossoms",
+      "price": "From $10.00",
+     
+      "labels": ["-50%"]
+    },
+    {
+      "category": "vegetables",
+      "image": "./assets/Cabbage.webp",
+      "hoverImage": null,
+      "title": "Purple Cabbage",
+      "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/purple-cabbage",
+      "price": "From $10.00",
+     
+      "labels": ["-50%"]
+    },
+    { 
+      "category": "vegetables",
+      "image": "./assets/Cabbage.webp", 
+      "hoverImage": null , "title": "Purple Cabbage", 
+      "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/purple-cabbage" , 
+      "price": "From $10.00" , 
+       
+      "labels": ["-50%"] 
+    },
+   { 
+    "category": "vegetables",
+      "image": "./assets/Pomegranate.jpg", "hoverImage": "./assets/Pomegranate2.webp" , "title": "Pomegranate Juice", 
+            "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/pomegranate-juice" , 
+            "price": "From $10.00" , "disscount": "$20.00" , "labels": ["-50%"]
+    },
+    { 
+      "category": "vegetables",
+      "image": "./assets/greenDetox.jpg", "hoverImage": "./assets/greenDetox2.jpg" , "title": "Green Detox Drink", 
+            "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-detox-drink" , 
+            "price": "From $10.00" , "labels": ["New" , "Hot"] 
+    },
+    { 
+      "category": "vegetables",
+      "image": "./assets/fresh.jpg", "hoverImage": null , "title": "Fresh Tomatoes", 
+            "link": "https://cs-oars-1.myshopify.com/collections/tea/products/fresh-tomatoes-1" , 
+            "price": "$100.00" , "disscount": "$200.00", "labels": ["-50%" , "New"] 
+    },
+    {
+      "category": "vegetables",
+       "image": "./assets/purple-cabbage.jpg", "hoverImage": null , "title": "Purple Cabbage", 
+            "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/purple-cabbage-1" , 
+            "price": "$100.00" },
+    {
+      "category": "vegetables",
+       "image": "./assets/banana.jpg", "hoverImage": null , "title": "Banana Blossoms", 
+      "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/banana-blossoms-1" , 
+            "price": "$100.00" },
+    {
+      "category": "tea",
+      "image": "./assets/icecream.webp",
+      "hoverImage": "./assets/iceCream2.webp",
+      "title": "Whipped Cream With Strawberry",
+      "link": "https://cs-oars-1.myshopify.com/collections/smoothie/products/organic-mushroom-2c",
+      "price": "$100.00",
+    
+      "labels": ["-50%"]
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/greenDetox.jpg", 
+      "hoverImage": "./assets/greenDetox2.jpg" , 
+      "title": "Green Detox Drink", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-detox-drink" , 
+      "price": "From $10.00" , 
+      "labels": ["New" , "Hot"] 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/fresh.jpg", 
+      "hoverImage": null , 
+      "title": "Fresh Tomatoes", 
+      "link": "https://cs-oars-1.myshopify.com/collections/tea/products/fresh-tomatoes-1" , 
+      "price": "$100.00" , 
+      
+      "labels": ["-50%" , "New"] 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/tomato.jpg", 
+      "hoverImage": null , 
+      "title": "Fresh Tomatoes", 
+      "link": "https://cs-oars-1.myshopify.com/collections/tea/products/purple-cabbage-2" , 
+      "price": "$100.00" , 
+      
+      "labels": ["-50%"] 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/purple-cabbage.jpg", 
+      "hoverImage": null , 
+      "title": "Purple Cabbage", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/purple-cabbage-1" , 
+      "price": "$100.00" , 
+      "labels": ["New"] 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/banana.jpg", 
+      "hoverImage": null , 
+      "title": "Banana Blossoms", 
+      "link": "https://cs-oars-1.myshopify.com/collections/vegetables/products/banana-blossoms-1" , 
+            "price": "$100.00" 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/corn.webp", 
+      "hoverImage": null, 
+      "title": "Vegetable Smoothie", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/vegetable-smoothie" , 
+            "price": "$100.00" 
+    },
+    { 
+      "category": "tea",
+      "image": "./assets/greenPeppercorn0.jpg", 
+      "hoverImage": "./assets/green-peppercorn.jpg", 
+      "title": "Green Peppercorn", 
+      "link": "https://cs-oars-1.myshopify.com/collections/all-collections/products/green-peppercorn" , 
+      "price": "From $10.00" 
+    }
+  ]
+  

@@ -1,0 +1,31 @@
+<ul id="feature-products-categories">
+    <li *ngFor="let cat of categories" 
+        [class.active]="selectedCategory === cat" 
+        (click)="onCategoryChange(cat)">
+      {{ cat }}
+    </li>
+  </ul>
+  <div class="feature-products-container">
+    <div id="card-container">
+      <div *ngFor="let product of products" class="card">
+        <div class="images-container" [style.backgroundImage]="'url(' + product.image + ')'">
+          <div *ngIf="product.hoverImage" class="hover-image" 
+              [style.backgroundImage]="'url(' + product.hoverImage + ')'"></div>
+          <span *ngFor="let label of product.labels" [class]="label.toLowerCase() + '-span'">
+              {{ formatLabel(label) }}
+          </span>
+        </div>
+        <div class="icons-container">
+          <a *ngFor="let i of [1, 2, 3, 4]" href="#" target="_blank" class="icon-link">
+            <img [src]="'./assets/icon' + i + '.png'" [alt]="'Icon ' + i">
+          </a>
+        </div>
+        <div class="content-container">
+          <h3><a [href]="product.link" target="_blank">{{ product.title }}</a></h3>
+          <p>{{ product.price }}</p>
+          <p *ngIf="product.discount" class="price-discount">{{ product.discount }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

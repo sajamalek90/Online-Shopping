@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
+
+    body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+        .container {
+            /* width: 100%; */
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            padding: 80px;
+            margin: 0;
+
+        }
+
+        .image-header {
+            width: 100%;
+            height: 45vh; /* Height of the image */
+            /* background-image: url('assets/bkg-breadcrumbs.png'); */
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            margin-top: 60px; /* هذا الهامش يساوي ارتفاع الشريط العلوي */
+
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            margin: 0;
+            color: #91ad41;
+            font-family: "Playwrite NL", cursive;
+            font-optical-sizing: auto;
+            font-weight:150;
+            font-style: normal;
+        }
+        .subtitle a {
+            color: inherit; /* Use the existing color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 20px; 
+            border: none; 
+
+        }
+
+        .category {
+            flex-basis: calc(33% - 25px);
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    padding: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+        }
+        .category:hover {
+    transform: translateY(-10px); /* Moving the category slightly upwards on hover */
+}
+
+        .category img {
+            width: 65%;
+            height: auto;
+            border: none; /* Removing border */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* تطبيق الظل على الصورة فقط */
+            clip-path: inset(5%); /* قص الحواف بنسبة 5% من كل جانب */
+            transition: transform 0.3s ease;
+        }
+    
+    category-info {
+    position: absolute;
+    display: inline-block; /* لجعل الخلفية فقط على قد النص */
+    width: 60%; /* عرض الخلفية مطابق للصورة */
+    padding: 0 10px; /* مسافة داخلية أفقية لتوسيع الخلفية قليلاً */
+    text-align: left; /* محاذاة النص إلى اليسار */
+        }
+        .category .extra-margin {
+    margin-top: -10px; /* يمكنك تعديل هذه القيمة حسب الحاجة */
+}
+
+        .category-info h4 {
+            background-color: #91ad41; /* خلفية العنوان */
+            color: #fff; /* لون النص */
+            padding: 5px; /* مسافة داخلية */
+            margin: 0; /* إزالة الهوامش */
+            font-size: 14px; /* حجم الخط */
+    text-align: left; /* محاذاة النص إلى اليسار */
+    letter-spacing: 5px; /* تباعد الحروف */
+    
+
+        }
+
+        .category-info p {
+            color: #666; /* لون نص عدد المنتجات */
+            font-size: 12px; /* حجم الخط */
+            margin: 10px 0; /* مسافة فوق وتحت النص */
+            font-weight: 300; /* فونت رفيع */
+            letter-spacing: 5px; /* تباعد الحروف */
+            text-align: left; /* محاذاة النص إلى اليسار */
+
+
+
+        }
+
+        .view-more-button {
+            font-size: 12px; /* حجم الخط */
+            display: block; /* لتظهر في سطر جديد */
+            color: #000; /* لون النص */
+            text-decoration: underline; /* خط تحت النص */
+            background: none; /* إزالة الخلفية */
+            border: none; /* إزالة الحدود */
+            padding: 0; /* إزالة المسافة الداخلية */
+            cursor: pointer; /* شكل المؤشر */
+            margin-top: 10px; /* مسافة بين النص والرابط */
+            font-weight: 300; /* فونت رفيع */
+            letter-spacing: 5px; /* تباعد الحروف */
+            text-align: left; /* محاذاة النص إلى اليسار */
+
+    
+
+
+        }
+
+        .view-more-button:hover {
+            color: #91ad41; /* تغيير اللون عند الوقوف فوق الرابط */
+        }
+    .new-section {
+        width: 100%;
+         background-color:  #f8e8d0 ; /* حدد لون الخلفية المناسب */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 175px; /* تحديد الارتفاع المناسب، يمكنك تعديل القيمة حسب الحاجة */
+        margin-bottom: 20px; /* تحديد المسافة بين هذا القسم والفوتر، يمكنك تعديل القيمة حسب الحاجة */
+        margin-top: 20px; /* تحديد المسافة بين هذا القسم والفوتر، يمكنك تعديل القيمة حسب الحاجة */
+        border: none; /* إزالة الحدود */
+        padding: 20;
+
+
+
+
+
+
+}
+
+.new-section-content {
+    width: 90%; /* عرض القسم الداخلي */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+
+}
+text-container {
+            flex: 1;
+            margin-right: 10px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .first-text {
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .divider {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 10px 0;
+        }
+
+        .main-title {
+            font-size: 24px;
+            text-align: left;
+        }
+
+        .right-image {
+            width: 50%;
+            height: auto;
+        }
+
+        .right-image {
+            margin-left: 600px;
+        }
+
+.new-section-content img {
+    width: 20%; /* عرض كل صورة */
+    height: auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* تطبيق الظل على الصور */
+    border-radius: 5px; /* زوايا مدورة للصور */
+    clip-path: inset(5%); /* قص الحواف بنسبة 5% من كل جانب */
+    margin-top: 30px; /* تحديد المسافة بين هذا القسم والفوتر، يمكنك تعديل القيمة حسب الحاجة */
+
+
+}
+/* الشاشات الكبيرة (الكمبيوتر) */
+@media (min-width: 1024px) {
+    .container {
+        padding: 80px;
+    }
+
+    .image-header {
+        height: 45vh;
+        margin-top: 60px;
+    }
+
+    .categories {
+        gap: 20px;
+    }
+
+    .category {
+        flex-basis: calc(33% - 25px);
+    }
+
+    .new-section {
+        height: 175px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .new-section-content {
+        max-width: 1200px;
+    }
+
+    .right-image {
+        margin-left: 600px;
+    }
+}
+
+/* الشاشات المتوسطة (التابلت) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .container {
+        padding: 60px;
+    }
+
+    .image-header {
+        height: 40vh;
+        margin-top: 50px;
+    }
+
+    .categories {
+        gap: 15px;
+    }
+
+    .category {
+        flex-basis: calc(50% - 20px);
+    }
+
+    .new-section {
+        height: 150px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .new-section-content {
+        max-width: 800px;
+    }
+
+    .right-image {
+        margin-left: 0;
+    }
+}
+
+/* الشاشات الصغيرة (الهواتف المحمولة) */
+@media (max-width: 767px) {
+    .header {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .image-header {
+        height: 35vh;
+        margin-top: 40px;
+    }
+
+    .categories {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .category {
+        flex-basis: 100%;
+    }
+
+    .new-section {
+        height: 120px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .new-section-content {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .right-image {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+.newsletter {
+    width: 100%;
+    height: 175px; 
+      background-color: #f5ebd8;
+      background-image: url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg1_7dc39a5c-bd28-4d17-bfb7-3633b8edadb2.png?v=1613680475'), url('https://cs-oars-1.myshopify.com/cdn/shop/files/bg2.png?v=1613680475');
+      background-repeat: no-repeat, no-repeat;
+      background-position: left, right;
+      padding: 20px 0;
+      align-items: center;
+      
+  }
+  
+  .newsletter-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      place-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      padding-top: 50px;
+  }
+  
+  .newsletter-content h2 {
+      font-size: 36px;
+      color: #333;
+      margin: 0;
+      text-align: center;
+  }
+  
+  .newsletter-form {
+      display: flex;
+      align-items: center;
+  }
+  
+  .newsletter-form input[type="email"] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      width: 300px;
+  }
+  
+  .newsletter-form button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #91ad41;
+      color: white;
+      cursor: pointer;
+      border-radius: 0 5px 5px 0;
+  }
+  
+  .newsletter-form button:hover {
+      background-color: #7e9934;
+  }
+  .newsletter-message {
+      color: #4CAF50;
+      margin-top: 10px;
+      display: none; /* Hide by default */
+  }
+  @media (max-width: 768px) {
+
+    .newsletter-content h2 {
+        font-size: 24px;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 100%;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* تحسين التصميم للأجهزة الصغيرة جداً */
+@media (max-width: 480px) {
+   
+    .newsletter-content h2 {
+        font-size: 24px;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 100%;
+    }
+
+    .newsletter-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

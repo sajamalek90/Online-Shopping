@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@137&family=Playwrite+NL:wght@100..400&display=swap');
+
+        
+        
+        
+        .blogs:first-of-type{
+            margin-top: 150px;
+        }
+        
+        .blogs{
+            display: flex;
+            padding-left: 80px;
+           
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media (max-width:768px) {
+            .blogs{
+                padding-left: 10px ;
+            }
+        }
+  
+        .blog-post {
+            display: flex;
+            
+        }
+        .sub-blog{
+            text-align: left;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 50px;
+        }
+        .blog-post img{
+            width: 400px;
+            border-radius: 8px;
+        }
+        .blog-post img:hover{
+            transform: scale(1.1);
+        }
+        .sub-blog h2 {
+            font-size: 24px;
+            /* margin-top: 10px; */
+            padding-bottom: 20px;
+            font-family:streamster, cursive;
+        }
+        .sub-blog h2 a{
+            text-decoration: none;
+            color: #000;
+        }
+        .sub-blog h2 a:hover{
+            color:#91ad41;
+        }
+
+        
+        .sub-blog1 h4 a{
+            text-decoration: none;
+            color: #000;
+        }
+        .sub-blog1 h4 a:hover{
+            color:#91ad41;
+        }
+
+        .sub-blog p {
+            color: #8b8b99;
+            padding-bottom: 10px;
+            line-height:25px;
+        }
+        .blog-left{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding-bottom: 40px;
+        }
+        
+        .side {
+            flex: 1;
+            margin-left: 20px;
+            padding-right:0;
+            /* padding-left: 20px; */
+            padding-right: 50px;
+            animation: anime 1.5s ease-out forwards;
+            
+        }
+        
+        @media (max-width:768px) {
+            .side{
+                padding-left: 1px;
+                padding-right: 2px;
+                margin-left: 0;
+                margin-bottom: 20px;
+        }
+        }
+        .side ul {
+            list-style-type: none;
+        
+        }
+        
+        .side ul li {
+            margin-bottom: 10px;
+            color: #8b8b99;
+        }
+        
+        .side ul li span {
+            color: #8b8b99;
+            font-size: 14px;
+        }
+        .side-right {
+            text-align: left;
+            border-bottom: 1px solid #b7b5b5;
+            padding-bottom: 20px;
+            /* width: 400px; */
+            padding-left: 20px;
+            border-left: 1px solid #ccc;
+          
+            
+        }
+        @media (max-width:768px) {
+            .side-right{
+                width: auto;
+            }
+        }
+       
+        .category-blog li a{
+            color: black;
+            text-decoration: none;
+            
+            padding-left: 3px;
+        }
+        .category-blog li a:hover{
+            color:  #91ad41;
+        }
+        .category-title {
+            color:#91ad41;
+            padding-bottom: 20px;
+        }
+        .sub-blog1{
+            text-align: left;
+            padding-left: 20px;
+            /* padding-right: 20px; */
+           
+        }
+        .sub-blog1 h3 {
+            margin-top: 10px;
+            padding-bottom: 20px;
+            
+        }
+        
+        .sub-blog1 p {
+            color: #8b8b99;
+            padding-top: 15px;
+        }
+        
+        .blog-post1 {
+            display: flex;
+            flex-direction: row;
+            padding-top: 20px;
+            animation: anime 1.5s ease-out forwards;
+        }
+        .blog-post1 img:hover{
+            transform: scale(1.1);
+        }
+        .blog-post1:first-of-type{
+        
+            padding-top:20px;
+        }
+  
+        .home-news{
+            display: flex;
+            margin-top: 3px;
+            box-sizing: border-box;
+            padding-bottom: 40px;
+            height: 430px;
+        }
+       
+        @media (max-width:768px) {
+            .home-news{
+                height: auto;
+                justify-content: center;
+                align-items: center;
+            }
+            .home-news img{
+                display: none;
+            }
+            .news-text {
+                margin-top: 50px;
+                padding: 40px 20px !important;
+            }
+        }
+        .news-text{
+              background-color: #f8eee4;
+              width: 100%;
+              text-align: center;
+              padding-top: 200px;
+              padding-right: 200px;
+              font-size: 24px;
+        }
+        .blog-ads{
+            padding-top: 20px; 
+            width: 300px; 
+            
+        }
+        .blog-ads:hover{
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 768px){
+            .blog-left, .blog-post , .blogs{
+                flex-direction: column;
+            }
+            .blogs{
+                flex-direction: column-reverse !important;
+            }
+            .sub-blog{
+                padding-left:0 ;
+                text-align: left;
+                
+            }
+            body{
+                text-align: center;
+            }
+            .category-blog li a{
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                position: right;
+            }
+            .blog-post1{
+               text-align: left;
+              
+            }
+            
+        }
+    
+    
+        @keyframes anime {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .blog-post {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: anime 1s ease-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        .blog-post:nth-of-type(1) {
+            animation-delay: 0.3s;
+        }
+
+        .blog-post:nth-of-type(2) {
+            animation-delay: 0.6s;
+        }
+
+        .blog-post:nth-of-type(3) {
+            animation-delay: 0.9s;
+        }
+
+        .blog-post:nth-of-type(4) {
+            animation-delay: 1.2s;
+        }
+
+        .blog-post:nth-of-type(5) {
+            animation-delay: 1.5s;
+        }
+
+        .blog-post:nth-of-type(6) {
+            animation-delay: 1.8s;
+        }
